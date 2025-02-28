@@ -28,6 +28,12 @@ public class _05_VariableNaming {
         System.out.println(nationality);
         System.out.println(firstName);
 //        System.out.println();
+        // 임시 변수 if 문이나 for 무에서 사용하는건 변수에 큰 힘을 안써도 됨
+
+        int i = 0;
+
+        // 상수는 대문자
+        final String CODE = "abcd";
 
     }
 }
