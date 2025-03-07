@@ -11,5 +11,12 @@ public class _07_DoWhile {
             move += 0.323425;
         }
         System.out.println("도착했습니다!");
+
+        move =0f;
+        height = 1.8f;
+        do {
+            System.out.println("광윤이가 발차기를 합니다.\n"+move+"m를 이동했습니다.");
+            move +=0.1234522;
+        } while(move+height < distance);
     }
 }
